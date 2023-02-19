@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CpE Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Computer Engineering Grade Calculator</h1>
+        </header>
+        <main>
+            <div id="year">
+                <h3 id="fsem">First</h3>
+                <h3 id="ssem">Second</h3>
+                
+            </div>
+
+        </main>
+        <h2 id="nth-sem">First Semester</h2>
+        <form action="#">
+            <div class="subject">
+                <label for="nstp">NSTP 11</label>
+                <input type="number" id="nstp">
+            </div>
+            <div class="subject">
+                <label for="chem">CHEM 11</label>
+                <input type="number" id="chem">
+            </div>
+            <div class="subject">
+                <label for="pe">PE 11</label>
+                <input type="number" id="pe">
+            </div>
+            <div class="subject">
+                <label for="gecone">GEC 11</label>
+                <input type="number" id="gecone">
+            </div>
+            <div class="subject">
+                <label for="gectwo">GEC 14</label>
+                <input type="number" id="gectwo">
+            </div>
+            <div class="subject">
+                <label for="gecthree">GEC 17</label>
+                <input type="number" id="gecthree">
+            </div>
+            <div class="subject">
+                <label for="cpeone">CpE 12</label>
+                <input type="number" id="cpeone">
+            </div>
+            <div class="subject">
+                <label for="cpetwo">CpE 11</label>
+                <input type="number" id="cpetwo">
+            </div>
+            <div class="subject">
+                <label for="math">MATH 1</label>
+                <input type="number" id="math">
+            </div>
+            <button onclick="computingGrade()" id="compute-btn">Compute</button>
+            
+            
+        </form>
+            <div id="result">
+                <h3>Average : <span id="average"></span></h3>
+                <h3>Note : <span id="gwa"></span></h3>
+            </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
